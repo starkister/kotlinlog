@@ -9,7 +9,5 @@ abstract class Animal {
         this.age = age
     }
 
-    constructor()
-
     abstract fun say()
 }
