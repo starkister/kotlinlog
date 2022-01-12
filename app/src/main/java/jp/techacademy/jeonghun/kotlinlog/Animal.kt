@@ -1,8 +1,8 @@
 package jp.techacademy.jeonghun.kotlinlog
 
 abstract class Animal {
-    abstract var name: String
-    abstract var age: Int
+    var name: String
+    var age: Int
 
     constructor(name:String, age:Int){
         this.name = name

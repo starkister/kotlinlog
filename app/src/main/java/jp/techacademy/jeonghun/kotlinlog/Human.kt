@@ -9,15 +9,13 @@ open class Human : Animal,Thinkable{
         this.hobby = hobby
     }
 
-    override var name:String = ""
-    override var age:Int = 0
     var hobby:String = "プログラミング"
 
     override fun think(){
-        Log.d("kotlinTest", "私は"+hobby+"について考える。")
+        Log.d("kotlinTest", "私は"+hobby+"について考える.")
     }
 
     override fun say(){
-        Log.d("kotlinTest","私の名前は"+name+"です。年は"+age.toString()+"歳です。")
+        Log.d("kotlinTest","私の名前は"+name+"です。年は"+age.toString()+"歳です.")
     }
 }
